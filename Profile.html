@@ -53,7 +53,7 @@
         <div class ="form-box">
           <div class = "form-value">
             <form action ="">
-              <h2> Register </h2>
+              <h2> Profile </h2>
               <!-- Name -->
               <div class = "inputbox">
                 <ion-icon name="accessibility-outline"></ion-icon>
@@ -65,38 +65,34 @@
           <div class = "inputbox">
             <ion-icon name="mail-outline"></ion-icon>
             <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-            <label for="">Email</label>
+            <label for=""></label>
           </div>
 
           <!-- Date of Birth -->
           <div class = "inputbox">
             <ion-icon name="calendar-outline"></ion-icon>
-            <input name="date" type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+            <input name="date" type="text" onfocus="(this.type='date')">
             <label for="">Date of birth:</label>
             <label for=""></label>
           </div>
           <!-- Gender -->
-          <div class="inputbox">
-            <label for="staticGender" class="col-sm-2 col-form-label">Gender</label>
-            <div class="col-sm-10">
-              <input type="text" readonly class="form-control-plaintext" id="staticGender" value="Male">
-            </div>
-          </div>          
-
+          <div class = "inputbox">
+            <ion-icon name="male-female-outline"></ion-icon>
+            <input type="text" readonly class="form-control-plaintext" id="staticGender" value="Male">
+            <label for=""></label>
+          </div>
           <!-- Home address -->
-          <div class="inputbox">
-            <label for="inputAddress" class="col-sm-2 col-form-label">Home address</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputAddress" value="36 Lenina st., Tomsk 634050">
-            </div>
+          <div class = "inputbox">
+            <ion-icon name="home-outline"></ion-icon>
+            <input type="text" class="form-control" id="inputAddress" value="36 Lenina st., Tomsk 634050">
+            <label for="">Home Address</label>
           </div>
 
           <!-- Phone Number -->
-          <div class="inputbox">
-            <label for="inputPhone" class="col-sm-2 col-form-label">Phone number</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputPhone" value="+7 (901) 945-23-41">
-            </div>
+          <div class = "inputbox">
+            <ion-icon name="call-outline"></ion-icon>
+            <input type="text" class="form-control" id="inputPhone" value="+7 (901) 945-23-41">
+            <label for="">Phone Number</label>
           </div>
 
               <div class="text-end" style="align-items: end;">
